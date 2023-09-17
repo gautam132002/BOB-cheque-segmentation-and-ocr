@@ -12,11 +12,16 @@ import sys
 import time
 import cv2
 
+#========================================= azure_ocr_config ============================================
+
+
 subscription_key = "ADD_KEY_HERE."
 endpoint = "https://computervisionbankofbaroda.cognitiveservices.azure.com/"
 
 computervision_client = ComputerVisionClient(
     endpoint, CognitiveServicesCredentials(subscription_key))
+
+#========================================= main_section ============================================
 
 
 class auto:
