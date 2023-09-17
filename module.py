@@ -12,7 +12,7 @@ import sys
 import time
 import cv2
 
-subscription_key = "16be92f676b44d4c9b3144214de07e00"
+subscription_key = "ADD_KEY_HERE."
 endpoint = "https://computervisionbankofbaroda.cognitiveservices.azure.com/"
 
 computervision_client = ComputerVisionClient(
