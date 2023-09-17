@@ -21,7 +21,7 @@ git clone https://github.com/your-username/BOB-cheque-segmentation-ocr.git
 cd BOB-cheque-segmentation-ocr
 ```
 
-2. Open `main.py` and set your Azure OCR API credentials in the `azure_ocr_config` section.
+2. Open `module.py` and set your Azure OCR API credentials in the `azure_ocr_config` section.
 
 ```python
 subscription_key = "ADD_API_KEY OVER_HERE."
